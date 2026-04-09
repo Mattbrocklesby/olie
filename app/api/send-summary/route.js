@@ -8,7 +8,7 @@
 import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
-const FROM_ADDRESS = "OLIE <onboarding@resend.dev>";
+const FROM_ADDRESS = "OLIE <olie@opalbusiness.co.uk>";
 
 function buildYoungPersonEmail(profile, summary, transcript) {
   const name = profile.youngPersonName || "there";
