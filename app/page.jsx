@@ -50,7 +50,7 @@ const OCD_CATEGORIES = [
 ];
 
 // ─── System prompt ────────────────────────────────────────────────────────────
-function buildSystemPrompt(profile: any) {
+function buildSystemPrompt(profile) {
   const name = profile.youngPersonName || "them";
   const age  = profile.youngPersonAge  || "a young person";
   const cats = profile.categories?.length
